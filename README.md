@@ -19,7 +19,7 @@ This is a strategy auto-battle game where players recruit various generals and f
 
 1. Clone or download the source code to your local machine:
     ```bash
-    git clone https://github.com/yourusername/your-repository-name.git
+    git clone https://github.com/monoLb/Unity_TheFrogMargin
     ```
 
 2. Open the project in **Unity**.
