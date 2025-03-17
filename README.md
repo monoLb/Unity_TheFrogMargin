@@ -19,7 +19,8 @@ This is a strategy auto-battle game where players recruit various generals and f
 
 1. Clone or download the source code to your local machine:
     ```bash
-    git clone https://github.com/monoLb/Unity_TheFrogMargin
+    git clone:
+    https://github.com/monoLb/Unity_TheFrogMargin
     ```
 
 2. Open the project in **Unity**.
@@ -28,7 +29,7 @@ This is a strategy auto-battle game where players recruit various generals and f
 
 ## Development Environment
 
-- **Unity** version: 2020.3.x or higher.
+- **Unity** version: 2020.3.x, higher or 6000.
 - **C#** programming language.
 
 ## Contributing
