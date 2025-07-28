@@ -1,13 +1,16 @@
+using System;
 using UnityEngine;
 using UnityEngine.Pool;
 
 public class PoolTool : MonoBehaviour
 {
-   public GameObject storePrefab;
+   private GameObject storePrefab;
    private ObjectPool<GameObject> pool;
 
    private void Awake()
    {
+      storePrefab = Resources.Load<GameObject>("RealDesign/SoldierOnStore_prefab");
+      
       pool = new ObjectPool<GameObject>(
          createFunc:()=> Instantiate(storePrefab,transform),
          actionOnGet: obj=>gameObject.SetActive(true),
@@ -19,8 +22,8 @@ public class PoolTool : MonoBehaviour
          );
 
    }
-
    
+
    public GameObject GetObjectFromPool()
    {
       return pool.Get();
