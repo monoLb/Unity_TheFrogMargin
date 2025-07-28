@@ -41,7 +41,7 @@ public class Recruit : MonoBehaviour
         else
         {
             Debug.Log("钱不够哦");
-            StateManager.Instance.MyCoin.text = "没米还来沾边？";
+            StateManager.Instance.MyCoin.text = "没米了？";
         }
 
     }
